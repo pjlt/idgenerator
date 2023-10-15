@@ -1,9 +1,11 @@
-/out
-/CMakeSettings.json
-/.vs
-/.vscode
+out
+CMakeSettings.json
+.vs
+.vscode
 *.exe
 *.out
 *.obj
 *.lib
 *.dll
+lanthing-svr.sqlite
+ids
