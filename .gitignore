@@ -2,3 +2,8 @@
 /CMakeSettings.json
 /.vs
 /.vscode
+*.exe
+*.out
+*.obj
+*.lib
+*.dll
