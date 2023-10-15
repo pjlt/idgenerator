@@ -59,8 +59,7 @@ func main() {
 	dbPath := flag.String("db", "lanthing-svr.sqlite", "The path of sqlite database file")
 	idPath := flag.String("id", "", "The path of ids file")
 	flag.Parse()
-
-	if dbPath == nil || idPath == nil {
+	if dbPath == nil || idPath == nil || len(*dbPath) == 0 || len(*idPath) == 0 {
 		flag.Usage()
 		os.Exit(-1)
 	}
